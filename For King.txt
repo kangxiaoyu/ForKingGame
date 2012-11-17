@@ -1,0 +1,260 @@
+-tree branches
+-family branches
+-dna cloning
+-flower cloning, polen
+
+-For King Wind
+-For King Pride
+-For King Greed <-
+-For King Sin
+-For King Siddharta
+
+-For King Ego
+-For Kings
+-ForKing
+
+-things that get away from you when you get closer to them.
+
+
+VISUALS
+	-blurred background
+	-windy (cloud like speech balloon for mayas) cursor, pointing to the cursor target pixel.
+	-intro: king starts in the top of a castle, crown on his head. The wind blows it away and it falls down (physics) all the way down the steps. The player takes control and goes on to get the crown.
+
+MECHANICS
+	-move the king by using the mouse to control wind.
+	-move with <-, -> and A D.
+
+-you can prototype this game with what you have so far. Drag objects to simulate wind or something. Is this really the game you want?
+-for king's sake, make a fucking mockup.
+-on your path to have it all (even the crown), you end up losing it all. But in losing it all, you gain it all. Then you have not just a cape, a scepter and a crown: you have nothing, and by having nothing you have everything (the trees, the leaves, the wind, the water).
+
+WORDS
+	-"On the King's path to have all, he has lost all."
+	-"But in losing all, he has gained all."
+
+PITCH
+
+	-A relaxing platformer with physics puzzles.
+	-A relaxing puzzle platformer with physics.
+	-2D Puzzle platformer with physics.
+	-2D platformer about a king's journey.
+	-You are a king in search for your lost crown.
+	-A king in search for his lost crown.
+
+-Platformer with physics puzzles, relaxing atmosphere and existentialist/philosophical message.
+
+-Sensorial, it's about the king leaving his ivory tower and experience things: touch, sound, visuals, anger, despair, ambition, joy, pity, compassion, lonelyness, and losing his pride in favor of all these.
+-A game about a king that loses his crown and goes on a journey to recover it. But the world turns out to be far more dangerous than the safety of his castle, and he ends up losing everything else: his scepter, his coat, his shoes. Though he loses all material possessions, he learns a valuable lesson.
+-Unlike other games, it's not about gaining things and reaching the castle in the end. You leave the castle right at the beginning, and lose everything in your journey.
+-It's not about becoming a king, it's about abandoning everything and, in doing so, gaining it all.
+
+-the game comes to a point where you can't push things anymore, you are weak. Then you can't jump anymore, you are tired. You can only walk, you are powerless.
+-Or there is an obstacle that you just can't go through, an obstacle too heavy for you to push.
+
+----------------- TO DO ----------------
+	
+MECHANICS
+	-Stepping sounds (activated when keys are pressed, stops when they aren't).
+	-Walking animation (and others? preferably this is just hopping around in y axis).
+	X-falling down when jumping
+	-frame transition right to left, left to right.
+	-reset button
+	-respawning on death
+	-FEET to avoid wall collision and wall walking and jumping.
+
+ART
+	-Backgrounds.
+	-Use refs for value range, depth, color scheme, elements.
+	-You are in the 2nd plane, not in the first. Could be some trees in the first or moving animals, see refs folder.
+
+BACKGROUNDS
+	-Forest
+	-Snow
+
+ITEMS
+	-Crown (loses at castle)
+	-Scepter (loses at forest)
+	-Boots (loses at mountain)
+	-Cape	(loses at snow)
+	-Underwear? (loses at shadow kingdom)
+
+LEVELS
+	-Level designs and execution.
+
+LEVEL IDEAS
+	-"Basic Platforming"
+	-"Domino": domino blocks, you hit one and all others fall in chain, letting you reach the end.
+	-"Be quick": falling block
+	-"In the way": rock in the way
+	-"Mind the gap": hole must be filled with a wagon wheel so you can pass.
+	-"Bridge": push the lever to bring down the elevated bridge so you can go right.
+	-"Freezing Child" give coat (press up). Once you give it, you can take the coat back by pressing down. If you leave the kid without it, he dies.]
+	-"Catapult Yourself"
+	-"Catapult to Destroy"
+	-"Juggle Walking" above a circle to avoid spikes below, or to be higher up and be able to jump on other side
+	-"Wall jumping"
+	-"Slipery" reduce friction of some platforms.
+	-"Gravity" fucked up gravity
+	-"Wind" wind left to right, right to left.
+	-"Begging" a level in which you can beg to have your scepter back, but the guy just shakes his head "no no no". Nothing you can do. First you order him to return it, then you beg. He says no both times, and there's nothing you can do.
+	-"Twin levels" -> things are being thrown from the right, you find out there's a catapult there when you go on the next screen.
+
+	-"The Old Man"
+	-"The Diseased Man"
+	-"The Decaying Corpse"
+	-"The Ascetic" (Monk) ----> all these are in the palace still
+
+	-"The Indulgent"
+	-"The Self-Mortificator"
+	-"fall and respawn at top"
+	-"You HAVE to turn back, then you go somewhere different than where you came from. Maybe you see the crown, but it's unreachable.
+
+LEVEL LIST
+	1) Crown Falls
+	2) Brick in the way
+	3) Elevated Bridge
+	4) Mind the Gap
+
+	5) Harder Mind the Gap
+	6) Jump Over Lever
+	7) Wheel Jump Over Spikes (dont need to juggle walk)
+	8) Harder Wheel Jump Over Spikes (need to juggle walk)
+	
+	9) Rolling Stone
+	10)
+	11)
+	12) Downhill (with stones rolling behind you)
+	
+	13) Slippery
+	14) 
+	15) 
+	16) Cold Child
+
+	17) Descending
+	18) 
+	19) 
+	20) The Crown
+
+	One above the sky that, when you jump from the level below, you can quickly (because you fall) see a cloud in the shape of a crown.
+
+NEW LIST
+	
+	CASTLE
+
+	901) Crown Falls
+	801) Fall
+	701) Bridge
+	702) Brick
+	703) You have to fall
+	603) Fall
+
+	PLAINS	
+
+	502) Blocked
+	503) Ground
+	504) Gap
+
+	FOREST
+	
+	505) Simple Jump
+	506) Harder Gap
+	507) Keep Up or you can't reach it - jump on wheel while it's moving or it falls too low.
+
+	DESERT
+
+	508) Introduction to rock piles
+	509) Climbing
+
+	MOUNTAINS
+
+	609) More Climbing 
+	709) Climbing with falling rocks.
+
+	SNOW
+
+	SHADOW KINGDOM
+
+	ENLIGHTENMENT
+
+THEMES
+	-Castle		Platforming, Levers
+	-Forest		Pushing
+	-Mountain	Rolling Stones, Wind, Moving Platforms
+	-Snow		Slippery, 
+	-Shadow K.	Catapults
+
+IDEAS
+	-take seeds that fall from sky and plant trees, flowers. Walk on its branches or climb it if it grows in a direction.
+	-make bonfire
+	-logs float on water, you otherwise sink. Can I even get water physics working?
+	-sometimes there are 2 paths. You can finish the game without doing a certain level, they are the most unimportant ones.
+	-15-20 minutes of gameplay total.
+	-the visuals descend into surrealism: castle, forest, snow, shadow kingdom.
+	-a different ending depending on a few choices.
+	-BUILD MODE: use the mouse to drag objects, click to switch object, you can build stuff.
+
+ENDINGS
+	-you saved the child, now you live with the woman.
+	-you let the child to die and asked for forgiveness, you live with the woman and the child is dead, there's a grave.
+	-you let the child die and didn't apologize: you are alone.
+	-you took the crown: you are wearing it alone.
+	-kingdom being rebuilt, you are the king.
+	-If you turn back when you reach the crown screen, you gain enlightement. Instead of going back 1 level, you go somewhere else.
+
+ACTIONS
+	-D Demand
+	-B Beg
+	-A Apologize
+	-F Forgive
+	-L Love
+	-B Be a monster
+	-B Be evil (these just appear if you kill the child and have no other effect)
+	-B Be mean
+	-B Be Mad
+	-B Be Horrible
+
+	-UP Give Coat
+	-DOWN Take Coat
+	-UP Take Crown
+	-DOWN Throw Crown
+
+EYECANDY
+	-butterflies and birds
+	-bunnies
+	-color overlay for each area: forest is yellow, shadow kingdom is red.
+
+SOUNDS
+	-jump
+	-fall from jump (trigger at jump, next contact triggers the fall sound, then it's off until you jump again)
+	-steps
+	-background
+	-things should have sounds too.
+	-falling sounds will be possible based on the "grounded" boolean.
+
+OVERALL
+	-Levels
+	-Visuals
+	-Sounds
+	-Music
+
+IMMEDIATE
+	-I might actually have to make the first platforms start at -1 x so you dont get the problem I've been having with the level not being destroyed before char is moved...
+
+CREDITS
+	-Credits screen: falling leaves, moonlight, the king is standing under the tree, looking out a vast landscape, perhaps a sunset.
+
+	-Environment Art: 	Lucas Molina (name stays, the role changes)
+	-Level Design: 		Lucas Molina
+	-Sound Design:		Lucas Molina
+	-Story: 		Lucas Molina and Luiza Wolff
+
+	-Character Concepts:	Luiza Wolff
+	-Music: 		Morvan
+
+	-Physics Engine: 	QuickBox2D
+	-Software:		FlashDevelop
+
+	-On the king's journey to have it all, he has lost everything.
+	-But in losing everything, he has gained it all.
+	-Thank you for playing.
